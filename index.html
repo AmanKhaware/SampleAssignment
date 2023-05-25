@@ -1,29 +1,23 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <script type = "text/javascript">  
-        function getAlertAndConsole() {
-            var firstName = document.getElementById('firstName').value;;
-            var lastName = document.getElementById('lastName').value;
-            
-            alert(firstName + ' ' + lastName)
-            
-            console.log(firstName + ' ' + lastName ) 
-        }
-        </script>  
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Details</title>
+    <title>My Ttile</title>
+    <link rel="stylesheet" href="my.css">
 </head>
-<body grey="red">
-    <form style="border: 2cm; background-color: yellowgreen;">
-        <h3>Add you details here</h3>
-        <label style="color: aqua;">Enter your first name : </label><input type="text" name="firstName" id="firstName"><br>
-        <label style="color: chartreuse;">Enter your last name :</label> <input type="text" name="lastName" id="lastName" ><br>
-        <button onclick="getAlertAndConsole()">Submit</button>
+<body>
+    <h1>User Interface</h1>
+    <form>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+
+        <button onclick="formSubmit()">Submit</button>
     </form>
-    
+    <script src="javascript.js"></script>
 </body>
 </html>
-<html>
-    
