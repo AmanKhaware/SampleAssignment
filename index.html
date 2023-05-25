@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <script type = "text/javascript">  
+        function getAlertAndConsole() {
+            var firstName = document.getElementById('firstName').value;;
+            var lastName = document.getElementById('lastName').value;
+            
+            alert(firstName + ' '+ lastName)
+            
+            console.log(firstName + ' ' + lastName ) 
+        }
+        </script>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body grey="red">
+    <form style="border: 2cm; background-color: yellowgreen;">
+        <p>Add you details here</p>
+        <label style="color: aqua;">Enter your first name : </label><input type="text" name="firstName" id="firstName"><br>
+        <label style="color: chartreuse;">Enter your last name :</label> <input type="text" name="lastName" id="lastName" ><br>
+        <button onclick="getAlertAndConsole()">Submit</button>
+    </form>
+    
+</body>
+</html>
+<html>
+    
